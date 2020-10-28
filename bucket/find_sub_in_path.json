@@ -1,0 +1,22 @@
+{
+    "version": "0.0.1",
+    "license": "freeware",
+    "description": [
+        "find_sub_in_path is a small tool which checks if a certain file or directory exists in the current or any parent folder",
+        "if yes it prints the absolute path of this found file system entry and returns exit code 0.",
+        "otherwise it returns a non zero exit code"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://raw.githubusercontent.com/zx42/tools/main/archive/find_sub_in_path.zip",
+            "hash": "6bb4af26fc097e14e45ebe94e6559897a9081c9792ef02a94ab173409cea0a84"
+        }
+    },
+    "bin": "find_sub_in_path.exe",
+    "shortcuts": [
+        [
+            "find_sub_in_path.exe",
+            "find_sub_in_path"
+        ]
+    ]
+}
