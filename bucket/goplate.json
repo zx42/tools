@@ -1,0 +1,20 @@
+{
+    "version": "0.0.1",
+    "license": "freeware",
+    "description": [
+        "GoPlate is a small tool which executes a Go template and creates an output file"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://raw.githubusercontent.com/zx42/tools/main/archive/goplate.zip",
+            "hash": "54fcfa7a9d235627718cbc8e4302c73dd5921297428d980c8f7794ad6b22fe5a"
+        }
+    },
+    "bin": "goplate.exe",
+    "shortcuts": [
+        [
+            "goplate.exe",
+            "goplate"
+        ]
+    ]
+}
