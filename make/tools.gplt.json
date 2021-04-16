@@ -1,0 +1,23 @@
+{
+    "version": "0.0.6",
+    "license": "freeware",
+    "description": [
+        "*find_sub_in_path* is a small tool which checks if a certain file or directory exists in the current or any parent folder",
+        "if yes it prints the absolute path of this found file system entry and returns exit code 0.",
+        "otherwise it returns a non zero exit code -- ",
+        "*goplate* executes a Go template and creates an output file -- ",
+        "*collect-licenses* collects opensource license information to prepare a release"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://raw.githubusercontent.com/zx42/tools/main/archive/tools.zip",
+            "hash": "{{ .SHA }}"
+        }
+    },
+    "bin": [
+        {{ range $i, $exe := .BINS }}
+        {{- if ne $i 0 -}} ,
+        {{ end -}} "{{ $exe }}"
+        {{- end }}
+    ]
+}
