@@ -23,7 +23,7 @@ EOF
     done
 
     goplate apply                               \
-        --in-template=../make/tools.gplt.json   \
+        --template-file=../make/tools.gplt.json \
         --out-file="${JSON}"                    \
         --data=tools.yaml
 }

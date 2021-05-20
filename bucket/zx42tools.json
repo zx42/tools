@@ -1,5 +1,5 @@
 {
-    "version": "0.0.6.1",
+    "version": "0.0.6.2",
     "license": "freeware",
     "description": [
         "*find_sub_in_path* is a small tool which checks if a certain file or directory exists in the current or any parent folder",
@@ -11,13 +11,10 @@
     "architecture": {
         "64bit": {
             "url": "https://raw.githubusercontent.com/zx42/tools/main/archive/zx42tools.zip",
-            "hash": "bc110cdb9ab7cdad4b9878c8bf9ceab554f66090f7540001e50603adfbee8e92"
+            "hash": "1d9cc789c48c6379e3fe5171aea92ff03f745a9a4bd5c2d6d0d8f38d16166d60"
         }
     },
     "bin": [
-        "collect-licenses.exe",
-        "find_sub_in_path.exe",
-        "findup.exe",
         "goplate.exe"
     ]
 }

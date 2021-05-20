@@ -1,5 +1,5 @@
 {
-    "version": "0.0.6.1",
+    "version": "0.0.6.2",
     "license": "freeware",
     "description": [
         "*find_sub_in_path* is a small tool which checks if a certain file or directory exists in the current or any parent folder",
