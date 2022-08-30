@@ -23,9 +23,10 @@ EOF
     done
 
     goplate apply                               \
-        --template-file=../make/tools.gplt.json \
-        --out-file="${JSON}"                    \
-        --data=tools.yaml
+        --template=../make/tools.gplt.json      \
+        --output="${JSON}"                      \
+        --data=tools.yaml                       \
+        --delimiters="/*,*/"
 }
 
 main "$@" || exit $?
