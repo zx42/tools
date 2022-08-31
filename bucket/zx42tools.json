@@ -11,7 +11,7 @@
     "architecture": {
         "64bit": {
             "url": "https://raw.githubusercontent.com/zx42/tools/main/archive/zx42tools.zip",
-            "hash": "e3948216ccb0e1a7aaf15f21b370ddb6bec4d3c605c0e1ea67dbead5220857bf"
+            "hash": "eed84ebd773bf8e97ded891de06f7ade2f2b38d4a52258f871d3d4e6037d6311"
         }
     },
     "bin": [
