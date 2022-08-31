@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://raw.githubusercontent.com/zx42/tools/main/archive/goplate.zip",
-            "hash": "d639152849c5d5d1af6d6b272111b605c39a04e90ae64711a72e4779d3cc5986"
+            "hash": "0ec68c3f515eaa9f2c55f2df7aee1cf9c793ce14cec327d7143863c2f4d0dccc"
         }
     },
     "bin": "goplate.exe",
