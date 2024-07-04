@@ -1,5 +1,5 @@
 {
-    "version": "0.0.7-pre-2",
+    "version": "0.0.8-alpha",
     "license": "freeware",
     "description": [
         "*find_sub_in_path* is a small tool which checks if a certain file or directory exists in the current or any parent folder",
@@ -11,7 +11,7 @@
     "architecture": {
         "64bit": {
             "url": "https://raw.githubusercontent.com/zx42/tools/main/archive/zx42tools.zip",
-            "hash": "063d753f141195428515c75769c9a68fe5402c96ea4838795727332854de3dda"
+            "hash": "cf5c5918ae60b9a36bc52643ec814c4e4c16e12459649422e917156a85ecc9f8"
         }
     },
     "bin": [
